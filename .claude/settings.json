@@ -6,5 +6,16 @@
   "bypassPermissions": true,
   "sandbox": {
     "enabled": true
+  },
+  "extraKnownMarketplaces": {
+    "local": {
+      "source": {
+        "source": "directory",
+        "path": "."
+      }
+    }
+  },
+  "enabledPlugins": {
+    "nano-banana-pro@local": true
   }
 }
