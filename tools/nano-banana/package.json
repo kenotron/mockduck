@@ -1,0 +1,33 @@
+{
+  "name": "nano-banana-pro",
+  "version": "0.1.0",
+  "description": "Gemini-powered image CLI for UI mockup workflows — generate, analyze, and composite images",
+  "keywords": ["gemini", "image-generation", "mockup", "ui", "cli", "ai"],
+  "license": "MIT",
+  "bin": {
+    "nano-banana": "./dist/nano-banana.js"
+  },
+  "files": [
+    "dist/nano-banana.js"
+  ],
+  "scripts": {
+    "build": "bun run build.ts",
+    "dev": "bun run src/index.ts",
+    "prepublishOnly": "bun run build.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/jpeg-js": "^0.3.7",
+    "@types/node": "^20.0.0",
+    "@types/pngjs": "^6.0.4",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

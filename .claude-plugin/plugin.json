@@ -1,0 +1,8 @@
+{
+  "name": "nano-banana-pro",
+  "description": "Gemini-powered image tools for UI mockup workflows. Generate images, analyze designs, iterate with reference images, and produce annotated comparisons.",
+  "version": "0.1.0",
+  "author": {
+    "name": "mockduck"
+  }
+}
